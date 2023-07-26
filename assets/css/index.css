@@ -1,0 +1,340 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+}
+:root {
+  --title-width: 200px;
+}
+.welcomeBack {
+  background-image: url(../img/bird_back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2f1893;
+  background-blend-mode: normal;
+}
+.welcomeWrapper {
+  padding: 15px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+}
+nav > ul > li {
+  margin: 0 10px;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+nav > p {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: -0.293px;
+  margin: 0px;
+}
+nav > .navButtons > .logIn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0 10px;
+}
+nav > .navButtons > .signUp {
+  background-color: #25dac5;
+  border: none;
+  padding: 4px 9px;
+  border-radius: 100px;
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0 10px;
+}
+.welcomeTitle {
+  margin: 50px 0;
+}
+.welcomeTitle > p {
+  color: white;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 0;
+}
+.videoButton {
+  display: flex;
+  justify-content: center;
+}
+
+.videoButton > button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border: none;
+  background-color: #ea3223;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.videoButton > button > i {
+  color: white;
+  display: flex;
+}
+
+.smallTitle > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.stepsContentWrapper {
+  display: flex;
+  padding: 100px 0 0 0;
+}
+.stickWrapper {
+  width: 72px;
+  height: 30px;
+
+  position: relative;
+}
+
+.stickWrapper > .stick {
+  width: 2px;
+  height: 440px;
+  background-color: #ebeaed;
+  position: absolute;
+  left: calc(50% - 2px);
+}
+.roadMapWrapper {
+  width: calc(100% - 72px);
+  box-sizing: border-box;
+}
+.roadMapWrapper > .stepText {
+  position: relative;
+  box-sizing: border-box;
+}
+.roadMapWrapper > .stepText > h4 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e0e62;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+}
+.roadMapWrapper > .stepText > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #15143966;
+}
+.stepIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ebeaed;
+  border-radius: 100px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 0;
+  left: -57px;
+}
+.videoWrapper {
+  display: flex;
+  margin-top: 35px;
+}
+
+.videoWrapper > .video {
+  background-image: url(../img/videoPng.jpg);
+  border-radius: 5px;
+  background-position: center;
+  width: 250px;
+  height: 113px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 15px;
+}
+.videoWrapper > .videoText > h4 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #1e0e62;
+}
+.videoWrapper > .videoText > p {
+  color: #15143966;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  margin: 10px 0 55px 0;
+}
+
+.stepText > .stepButton > button {
+  border: 0;
+  background-color: #25dac5;
+  border-radius: 100px;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 20px;
+}
+
+.designWrapper {
+  display: grid;
+  /* columns: 2 auto; */
+  grid-template-columns: auto auto;
+  gap: 20px;
+  break-inside: avoid;
+  padding: 100px 0;
+}
+.designText > h2 {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  color: #1e0e62;
+}
+
+.designText > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  color: #15143966;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.designText > .designFeatures > h4 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e0e62;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.designText > .designFeatures > h4 > i {
+  padding-right: 15px;
+}
+.designText > .designFeatures > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #15143966;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.designImg {
+  position: relative;
+}
+.designImg > img:first-of-type {
+  bottom: 0;
+  left: 0;
+}
+.designImg > img:last-of-type {
+  position: absolute;
+  bottom: 15px;
+  left: 140px;
+  z-index: -1;
+}
+@media (ma0-width: 3099px) {
+  .container {
+    padding: 0 calc(50% - 830px);
+  }
+}
+@media (max-width: 1999px) {
+  .container {
+    padding: 0 calc(50% - 630px);
+  }
+  .stickWrapper > .stick {
+    height: 390px;
+  }
+}
+@media (max-width: 1399px) {
+  .container {
+    padding: 0 calc(50% - 590px);
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 calc(50% - 480px);
+  }
+  .stickWrapper > .stick {
+    height: 410px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    padding: 0 calc(50% - 360px);
+  }
+  .stickWrapper > .stick {
+    height: 440px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 calc(50% - 270px);
+  }
+  .stickWrapper > .stick {
+    height: 540px;
+  }
+}
+@media (max-width: 599px) {
+  .container {
+    padding: 0 calc(50% - 200px);
+  }
+  .stickWrapper > .stick {
+    height: 640px;
+  }
+}
